@@ -1,0 +1,19 @@
+#!/bin/sh
+ARQUIVODADOS=/home/pi/sist_embarcados_git/lab07/gnuplot/dados.txt
+ARQUIVOSAIDA=/home/pi/sist_embarcados_git/lab07/gnuplot/dados.png
+
+gnuplot << EOF
+set title "Título"
+set ylabel "Eixo Y"
+set xlabel "Eixo X"
+set terminal png
+set output "$ARQUIVOSAIDA"
+plot "$ARQUIVODADOS" \
+     linecolor rgb '#0610ad' \
+     linetype 5 \
+     linewidth 2 \
+     pointtype 4 \
+     pointsize 6.0 \
+     title "meus dados 3" \
+     with linespoints
+EOF
