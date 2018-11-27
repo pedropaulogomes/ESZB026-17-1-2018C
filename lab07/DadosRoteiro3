@@ -1,0 +1,13 @@
+Roteiro 3
+
+5.1 Resistores internos pull up ou pull down da GPIO
+
+GPIO8 (pull up) - pino 24 
+
+(A) tensão entre pino 6 e GPIO8 (pull up): 2.193 V 
+(B) tensão entre pino 1 e GPIO8 (pull up): 0.0 V
+
+GPIO21 (pull down) - pino 40
+
+(A) tensão entre pino 6 e GPIO21 (pull down): 0.0 V 
+(B) tensão entre pino 1 e GPIO21 (pull down): 2.208 V
