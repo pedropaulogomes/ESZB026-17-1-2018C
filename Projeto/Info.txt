@@ -1,0 +1,4 @@
+Aqui na pasta de projetos podemos colocar qualquer arquivo sobre o projeto:
+*Códigos
+*Datasheets
+*Entre outras coisas
